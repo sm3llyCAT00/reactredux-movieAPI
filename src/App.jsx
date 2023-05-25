@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='app'>
       <Router>
-        <Header></Header>
+        <Header />
         <div className="container">
           <Routes>
             <Route path='/' exact element={<Home />} />
